@@ -7,15 +7,15 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID", 27992427))
+API_HASH = getenv("API_HASH", "07342c40853340995a492d0fc2de96cf")
+BOT_TOKEN = getenv("BOT_TOKEN", "8799980892:AAGV_iYJ-rTxftcJ63bFhxbDVcRAYy7O7w0")
 
-OWNER_ID = int(getenv("OWNER_ID", 8088623806))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "EliteSid")
-BOT_USERNAME = getenv("BOT_USERNAME", "Vivan_music_bot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐕ɪᴠᴀᴀɴ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "Vivaanassistant")
+OWNER_ID = int(getenv("OWNER_ID", 8395679370))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "egoistkomutan")
+BOT_USERNAME = getenv("BOT_USERNAME", "GoogleMuziksBot")
+BOT_NAME = getenv("BOT_NAME", "Google music")
+ASSUSERNAME = getenv("ASSUSERNAME", "lreax")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
@@ -44,7 +44,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ── Git / updates ──────────────────────────────────────────────────────────────
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SkyBotsDeveloper/VivaanXmusic3.0")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", None)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
@@ -64,7 +64,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ── Session strings (optional) ─────────────────────────────────────────────────
-STRING1 = getenv("STRING_SESSION")
+STRING1 = getenv("STRING_SESSION", "BAGrIWsAN14oHDEoPtR7qR3uA6vV2Y3_c0NKFgiouaGGZv9_ye1TU4qijQtF4JS3CQBW9lnWcsYHK7cmNFCfQl59CKdhenGYbP1flEGFZMcK_UKb6zUCsNUexH4ZDBrdU0D22gcTOjb5R-2vUAhvceKKygLVngJqxSroZdbL2ASdQeD_D8FhfwhHDNWiOlfkTuVBBxEf0wGgjQthSR2kY7aKBbdWWojr-mSUnqg0_YafetIcm8gEdC7Z_0z4DsQEb0NJ5nhtOSQKQmUK-kSZov2PAClqsWrL8Y7YRxWxuP1zv5-AzHPFAVQv7CxyAV-g7ZL3WQi1MEzWY0D3NGl_J0Q6AvFGcgAAAAH0a-aKAA")
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
