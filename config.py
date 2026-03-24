@@ -46,7 +46,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ── Git / updates ──────────────────────────────────────────────────────────────
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/melih022/g-ncel")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GIT_TOKEN = getenv("GIT_TOKEN", "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")  # needed if repo is private
+GIT_TOKEN = getenv("GIT_TOKEN", "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")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botpara222")
