@@ -13,9 +13,9 @@ async def get_id(client, message: Message):
     if message.link:
         out.append(f"**[ᴍᴇssᴀɢᴇ ɪᴅ:]({message.link})** `{message.id}`")
     else:
-        out.append(f"**ᴍᴇssᴀɢᴇ ɪᴅ:** `{message.id}`")
+        out.append(f"**ᴍᴇsaj ɪᴅ:** `{message.id}`")
 
-    out.append(f"**[ʏᴏᴜʀ ɪᴅ:](tg://user?id={user.id})** `{user.id}`")
+    out.append(f"**[senin ɪᴅ:](tg://user?id={user.id})** `{user.id}`")
 
     if len(message.command) == 2:
         try:
