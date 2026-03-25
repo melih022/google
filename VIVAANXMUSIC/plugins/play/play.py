@@ -31,8 +31,8 @@ from VIVAANXMUSIC.utils.stream.stream import stream
 @app.on_message(
     filters.command(
         [
-            "play",
             "oynat",
+            "play",
             "voynat",
             "vplay",
             "cplay",
