@@ -30,7 +30,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1288490189999")
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 # ── External APIs ──────────────────────────────────────────────────────────────
-COOKIE_URL = getenv("COOKIE_URL")  # required (paste link)
+COOKIE_URL = getenv("COOKIE_URL", "https://gist.githubusercontent.com/melih022/e8bd414deab79095c3b21def861df075/raw/d3b93c91e67ab8903bfec6c16dbcde4c871a8d5e/cookies.txt")  # required (paste link)
 API_URL = getenv("API_URL")        # optional
 API_KEY = getenv("API_KEY")        # optional
 DEEP_API = getenv("DEEP_API")      # optional
